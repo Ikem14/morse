@@ -85,7 +85,6 @@ func validateMorseInput(_ input: String) -> Bool {
       currMorse = ""
     }
   }
-  print("Morse code array: \(morseCodeArray)")
   for element in morseCodeArray {
     if element == " " || element == "" {
       // do nothing
